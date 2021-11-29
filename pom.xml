@@ -159,7 +159,7 @@
     <module>00-basics</module>
     <module>01-useless</module>
     <module>02-nanoengine</module>
-<!--    <module>03-microengine</module>-->
+    <module>03-microengine</module>
 <!--    <module>04-milliengine</module>-->
 
 <!--    <module>04-distributed-engine</module>-->
