@@ -11,7 +11,7 @@ public class TestEngineTDD01Test {
 
   public static class DemoTestClass {
     @Test
-    void test001() { }
+    void test001() { throw new RuntimeException("I must fail");}
 
     @Test
     @Disabled //enable for testing TestEngine ;-)
@@ -34,7 +34,7 @@ public class TestEngineTDD01Test {
   }
 
   @Test
-  @Disabled //enable for testing TestEngine ;-)
+  //@Disabled //enable for testing TestEngine ;-)
   void verifyJupiterTestStats() {
     EngineTestKit.engine("junit-jupiter")
                  .selectors(selectClass(DemoTestClass.class))

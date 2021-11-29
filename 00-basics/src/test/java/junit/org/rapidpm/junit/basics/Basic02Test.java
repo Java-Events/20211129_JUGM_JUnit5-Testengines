@@ -12,7 +12,8 @@ public class Basic02Test {
       implements BeforeEachCallback, AfterEachCallback {
 
     @Override
-    public void beforeEach(ExtensionContext extensionContext) throws Exception { }
+    public void beforeEach(ExtensionContext extensionContext) throws Exception {
+    }
 
     @Override
     public void afterEach(ExtensionContext extensionContext) throws Exception { }

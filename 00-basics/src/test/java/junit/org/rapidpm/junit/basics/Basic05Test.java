@@ -35,7 +35,8 @@ public class Basic05Test {
     }
 
     @Override
-    public Object resolveParameter(ParameterContext parameterContext, ExtensionContext extensionContext)
+    public Object resolveParameter(ParameterContext parameterContext,
+                                   ExtensionContext extensionContext)
         throws ParameterResolutionException {
       return new Demo(1, "Hello World");
     }
